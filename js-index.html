@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="css/stylesheet.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var name = prompt("What's your name?");
+		var age = prompt("How old are you?");
+		var height = prompt("How tall are you?(in cm's)");
+		//making use of the variable
+		document.write("Hello"+"<br>"+name+"<br>"+age+"<br>"+height+"<br>How are you?");
+		
+		var speed = prompt("how fast are you running (in km's)");
+		var vertical = prompt("how heigh can you jump  (in cm's)");
+		
+		if(speed < 17){
+			alert("Too slow");
+		}else{
+			document.write("<br>good speed");
+		}
+		
+		if(vertical < 30){
+			alert("too low");
+		}else{
+			document.write("<br>good height");
+		}
+	</script>
+  </head>
+  <body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor tempus interdum. Nulla maximus sapien dui, quis eleifend lectus blandit in. Pellentesque leo urna, interdum sed lacinia ut, tristique tempus diam....</p>
+	<br>
+	<a href="page2.html">Page 2</a>
+	<br>
+	<img src="Mountain.jpg">
+  </body>
+</html>
